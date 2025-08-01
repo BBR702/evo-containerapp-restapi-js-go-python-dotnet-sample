@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  CR_URI: helloworld-riboev.cr.cloud.ru
+  CR_URI: riboev.cr.cloud.ru
 jobs:
   build:
     runs-on: ubuntu-latest
